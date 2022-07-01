@@ -1,2 +1,2 @@
 # portfolio
-Building personal website using HTML CSS
+Building a personal website using HTML CSS
