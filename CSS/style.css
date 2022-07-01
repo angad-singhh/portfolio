@@ -1,0 +1,140 @@
+body {
+  background-color: #fafafa;
+  color: #3B5249;
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+
+
+.top-container {
+  background-color: #E9EFC0;
+  background-image: linear-gradient(#90E0EF, #E9EFC0, #FFE3A9);
+  position: relative;
+  padding-top: 80px;
+  margin: 0;
+
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #D6D5A8;
+  border-width: 5px;
+  width: 5%;
+  background-color: #E9EFC0;
+  margin: auto;
+
+}
+
+h1 {
+  margin: 0 auto;
+  color: #3F4E4F;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #519259;
+  margin: auto;
+  padding-bottom: 150px;
+}
+h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    color: #3F4E4F;
+    margin: 0;
+    padding-top: 75px;
+
+}
+
+.bird1 {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  height: 60px;
+  width: auto;
+}
+
+.tree1 {
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  left: -5px;
+  height: 510px;
+  width: auto;
+}
+
+
+.tree2 {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 16px;
+  height: 340px;
+  width: auto;
+}
+.bush{
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  right: 0;
+  bottom: 0;
+}
+
+.bird2 {
+  position: absolute;
+  bottom: 5px;
+  height: 37px;
+  left: 180px;
+  width: auto;
+}
+
+.second-container{
+
+  background-color: #E9EFC0;
+  background-image: linear-gradient(#B4E197, #E9EFC0);
+  position: relative;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.third-container{
+  background-color: #E9EFC0;
+  position: relative;
+  margin: 0;
+  height: 480px;
+}
+.aboutMe{
+  width: 40%;
+  margin: auto;
+  text-align: left;
+  padding-top: 50px;
+
+}
+.myImage{
+  position: absolute;
+  height: 200px;
+  width: auto;
+  left: 150px;
+  bottom: 100px;
+
+}
+.hand{
+  position: absolute;
+  height: 80px;
+  width: auto;
+  top: 20px;
+  right: 0;
+
+}
+.plant{
+  position: absolute;
+  height: 220px;
+  width: auto;
+  right: 20px;
+  top: 93px;
+}
