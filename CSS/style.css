@@ -220,13 +220,6 @@ h6{
   left: 90px;
   bottom: 265px;
 }
-.submarine{
-  position: absolute;
-  height: 100px;
-  width: auto;
-  bottom: 100px;
-  right: 80px;
-}
 
 
 .fifth-container{
@@ -286,23 +279,6 @@ h6{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
-}
-.fish5{
-  position: absolute;
-  height: 70px;
-  width: auto;
-  bottom: -100px;
-  right: 80px;
-
-}
-.fish6{
-  position: absolute;
-  height: 70px;
-  width: auto;
-  bottom: -150px;
-  right: 100px;
 
 
 }
