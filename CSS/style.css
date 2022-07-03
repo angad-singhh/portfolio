@@ -1,6 +1,6 @@
 body {
   background-color: #fafafa;
-  color: #3B5249;
+  color: #635666;
   margin: 0;
   text-align: center;
   font-family: cursive;
@@ -8,27 +8,18 @@ body {
 
 
 .top-container {
-  background-color: #E9EFC0;
-  background-image: linear-gradient(#90E0EF, #E9EFC0, #FFE3A9);
+  background-color: #FEFBE7;
+  background-image: linear-gradient(#00B4D8, #90E0EF,#CAF0F8,#CAF0F8,#EFFFFD,white);
   position: relative;
   padding-top: 80px;
   margin: 0;
 
 }
 
-hr{
-  border-style: dotted none none;
-  border-color: #D6D5A8;
-  border-width: 5px;
-  width: 5%;
-  background-color: #E9EFC0;
-  margin: auto;
-
-}
 
 h1 {
   margin: 0 auto;
-  color: #3F4E4F;
+  color: #205375;
   font-family: 'Sacramento', cursive;
   font-size: 4rem;
   font-weight: bold;
@@ -36,7 +27,7 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #519259;
   margin: auto;
   padding-bottom: 150px;
@@ -57,13 +48,11 @@ h3{
   height: 60px;
   width: auto;
 }
-
-.tree1 {
+.bird3 {
   position: absolute;
-  display: inline-block;
-  bottom: -20px;
-  left: -5px;
-  height: 510px;
+  top: 180px;
+  left: 50px;
+  height: 70px;
   width: auto;
 }
 
@@ -87,39 +76,52 @@ h3{
 
 .bird2 {
   position: absolute;
-  bottom: 5px;
+  bottom: 75px;
   height: 37px;
-  left: 180px;
+  right: 180px;
   width: auto;
+}
+
+.mountain{
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  width: auto;
+
 }
 
 .second-container{
 
-  background-color: #E9EFC0;
-  background-image: linear-gradient(#B4E197, #E9EFC0);
+  background-color: #F9F2ED;
+  background-image: linear-gradient(#B4E197,#F9EBC8);
   position: relative;
   padding-top: 50px;
+  padding-bottom: 50px;
   margin: 0;
 }
 
 .third-container{
-  background-color: #E9EFC0;
+  background-color: #F9F2ED;
+  background-image: linear-gradient(#F9EBC8,#F9F2ED,#F9F9F9,#F9F9F9,white,white);
   position: relative;
   margin: 0;
-  height: 480px;
+  height: 580px;
 }
 .aboutMe{
   width: 40%;
   margin: auto;
   text-align: left;
   padding-top: 50px;
+  line-height: 1.6;
 
 }
 .myImage{
   position: absolute;
   height: 200px;
   width: auto;
-  left: 150px;
+  left: 110px;
   bottom: 100px;
 
 }
@@ -137,4 +139,261 @@ h3{
   width: auto;
   right: 20px;
   top: 93px;
+}
+
+
+
+h4{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #3F4E4F;
+  margin: 0;
+  padding-top: 30px;
+
+}
+.Skills{
+  width: 45%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: left;
+
+}
+p{
+  margin: 0;
+}
+h6{
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+.img1{
+
+  height: 70px;
+  width: auto;
+  margin: 10px 45%;
+}
+.img2{
+  height: 60px;
+  width: auto;
+  margin: 10px 45%;
+}
+.img3{
+
+  height: 50px;
+  width: auto;
+  margin: 10px 45%;
+}
+
+.fourth-container{
+  background-color: white;
+  background-image: linear-gradient(white, #CAF0F8,#CAF0F8,#CAF0F8,white);
+  position: relative;
+  margin: 0;
+  height: 820px;
+
+}
+
+.fish1{
+  position: absolute;
+  height: 190px;
+  width: auto;
+  right: 20px;
+  top: 100px;
+}
+
+.fish2{
+  position: absolute;
+  height: 50px;
+  width: auto;
+  left: 80px;
+  bottom: 220px;
+}
+.fish3{
+  position: absolute;
+  height: 30px;
+  width: auto;
+  left: 90px;
+  bottom: 265px;
+}
+.submarine{
+  position: absolute;
+  height: 100px;
+  width: auto;
+  bottom: 100px;
+  right: 80px;
+}
+
+
+.fifth-container{
+  background-color: #CAF0F8;
+  background-image: linear-gradient(white,#CAF0F8,#90E0EF,#00B4D8,#CAF0F8,white);
+
+  height: 800px;
+
+}
+.profile {
+  width: 350px;
+  height: auto;
+  background-color: #DAEAF1;
+  color:  #3F4E4F;
+  box-shadow: 0 4px 8px 0 #A4EBF3,0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  display: inline-block;
+  border-radius: 8px;
+}
+.container {
+  text-align: center;
+  padding: 5px 10px;
+}
+.pIMG{
+  width: 350px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile:hover .pIMG {
+  opacity: 0.5;
+}
+
+.bottom-container1{
+  height: 100px;
+  background-color: white;
+  background-image: linear-gradient(white,white);
+  position: relative;
+}
+
+.bottom-container2{
+  position: relative;
+  background-image: url("first.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.fish5{
+  position: absolute;
+  height: 70px;
+  width: auto;
+  bottom: -100px;
+  right: 80px;
+
+}
+.fish6{
+  position: absolute;
+  height: 70px;
+  width: auto;
+  bottom: -150px;
+  right: 100px;
+
+
+}
+.fish4{
+  position: absolute;
+  height: 70px;
+  width: auto;
+  bottom: -200px;
+  left: 80px;
+
+}
+.diver{
+  position: absolute;
+  height: 190px;
+  width: auto;
+  bottom: 170px;
+  right: 400px;
+  transform: rotate(20deg);
+
+}
+.fish7{
+  position: absolute;
+  height: 140px;
+  width: auto;
+  bottom: 90px;
+  right: 170px;
+  transform: rotate(20deg);
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+.mssgMe{
+  margin: 0 auto;
+  color: #04293A;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contact{
+  position: absolute;
+  top: 60px;
+  left: 35%;
+  color: #04293A;
+  padding: 30px;
+  text-align: left;
+  line-height: normal;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-style: solid;
+  border-width: 0;
+  box-shadow: 4px 6px 8px #04293A;
+  background-image: url("second.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.box{
+  opacity: 0.3;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-width: 0;
+  border-width: medium;
+
+}
+.submit{
+  opacity: 0.5;
+  box-shadow: 2px 4px 6px #015061;
+  font-size: 1.1rem;
+  font-family: 'Sacramento', cursive;
+  color: black;
+  font-weight: bold;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  border-width: 0;
+
+}
+.submit:hover {
+  background: white;
+  opacity: 0.2;
+
 }
